@@ -4,54 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <script src="jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <div class="navbar">
       <div class="container">
-        <a class="title">Nessa Gascoigne</a>
+        <a class="navTitle">Ness Gascoigne</a>
         <nav>
           <ul>
             <li>
-              <a href="#abouttitle">About</a>
+              <a href="#homeTitle">Home</a>
             </li>
             <li>
-              <a href="#projectstitle">Projects</a>
+              <a href="#projectsTitle">Projects</a>
             </li>
             <li>
-              <a href="#contacttitle">Contact</a>
+              <a href="#contactTitle">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
-    <br>
-    <div class="section" id="about">
-      <h1 class="sectiontitle" id="abouttitle">About</h1>
-      <p>
+    <br><br>
+    <div class="section" id="home">
+      <h1 class="aboutTitle" id="aboutTitle">Hi, I'm Ness Gascoigne</h1>
+      <br>
+      <p class="aboutText">
+        Software engineer, full-stack developer, and indie game programmer
+
       </p>
     </div>
     <div class="section" id="projects">
-      <h1 class="sectiontitle" id="projectstitle">Projects</h1>
-      <img src="assets/Rushdown.png" width="540">
-      <h2>Rushdown</h2>
-      <p>
-        Parkour action game for up to 6 online players. I was the lead network and UI developer as my senior project at Drexel.
-      </p>
-      <video controls width="540">
-        <source src="assets/RippleShader.webm" type="video/webm">
-        <source src="assets/RippleShader.mp4" type="video/mp4">
-      </video>
-      <h2>Ripple Shader</h2>
-      <p>
-        Fluid simulation based on color differential implemented in Unity with GLSL and C#.
-      </p>
+      <h1 class="sectionTitle" id="projectsTitle">Projects</h1>
+      <br>
+      <div class="project">
+        <span class="projectText">
+          <h2 class="projectTitle">Rushdown</h2>
+          <p class="sectionText">
+            Rushdown is an online parkour action game for up to 6 players.<br>
+            It was developed over the course of 9 months as a Drexel senior project.<br> As the  network and UI developer, I implemented online play and menu systems.
+          </p>
+        </span>
+        <img class="projectImage" src="assets/Rushdown.png"></img>
+      </div>
+      <br><br>
+      <div class="project">
+        <span class="projectText">
+          <h2 class="projectTitle">Ripple Shader</h2>
+          <p>
+          GPU-based fluid simulation implemented in Unity with GLSL and C#. Fluid interacts with physics objects via sprite masks.
+          </p>
+        </span>
+        <video controls width="540">
+          <source src="assets/RippleShader.webm" type="video/webm">
+          <source src="assets/RippleShader.mp4" type="video/mp4">
+        </video>
+      </div>
+      <br><br>
+      <div class="project">
+        <span class="projectText">
+          <h2 class="projectTitle">Portals</h2>
+          <p>
+          Seamless portal system in Unity using a double-camera setup.
+          </p>
+        </span>
+        <video controls width="540">
+          <source src="assets/portals.webm" type="video/webm">
+          <source src="assets/portals.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
     <div class="section" id="Contact">
-      <h1 class="sectiontitle" id="contacttitle">Contact</h1>
-      <p>nessagascoigne@gmail.com<br>
-      github.com/nessassen<br>
+      <h1 class="sectionTitle" id="contactTitle">Contact</h1>
+      <p class="contactInfo">
+        <br>github.com/nessassen
+        <br>nessagascoigne@gmail.com
+        <br>https://www.linkedin.com/in/ness-gascoigne-245632160
+      </p>
     </div>
   </body>
 </html>
