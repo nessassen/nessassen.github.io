@@ -1,15 +1,16 @@
 body {
-  background: #ffffff;
+  background: #000000;
   padding: 0px;
   margin: 0;
   height: 100vh;
   color: rgb(255, 255, 255);
   font-family: 'Open Sans';
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .navbar {
-  background: #6155B4;
+  background: #000000;
   width: 100%;
   position: fixed;
 }
@@ -37,21 +38,18 @@ nav li {
 }
 
 nav li a {
-  color: #fff;
+  color: #6a5acd;
   text-decoration: none;
-}
-
-nav li a:hover {
-  color: rgb(55, 194, 117);
+  font-size: 20px;
 }
 
 nav li a::before {
   content: '';
   display: block;
   height: 4px;
-  background-color: rgb(55, 194, 117);
+  background-color: #6a5acd;
   position: absolute;
-  top: 0;
+  top: 0px;
   width: 100%;
   transform-origin: 50% 50%;
   transform: scale(0, 1);
@@ -68,26 +66,72 @@ nav li a:hover::before {
   clear: both;
 }
 
-.title {
+.navTitle {
   float: left;
   padding: 10px 0;
+  color: #6a5acd;
+  font-size: 20px;
+}
+
+.aboutTitle {
+  text-align: center;
+  margin: auto;
+  color: #6a5acd;
+  font-size: 60px;
+  margin-top: 120px;
+}
+
+.aboutText {
+  text-align: center;
+  margin: auto; 
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 120px;
 }
 
 .section {
-  margin-top: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
-  color: #000000;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 80%;
+  color: #ffffff;
 }
 
-h1 {
-  font-size: 20px
+.sectionTitle {
+  font-size: 40px;
+  color: #6a5acd;
+  margin: auto;
+  text-align: center;
+  margin-top: 0px;
 }
 
-h2 {
-  font-size: 16px
+.projectTitle {
+  font-size: 20px;
+  color: #6a5acd;
 }
 
-p {
-  line-height: 1.5
+.projectText {
+  display: inline-block;
+  width: 50%;
+  margin-left: 0%;
+}
+
+.projectImage {
+  width: 540px;
+  margin-right: 0px;
+}
+
+.projectVideo {
+  width: 540px;
+  margin-right: 0px;
+}
+
+.contactInfo {
+  margin: auto;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
 }
