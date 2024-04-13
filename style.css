@@ -73,7 +73,7 @@ nav li a:hover::before {
   font-size: 20px;
 }
 
-.aboutTitle {
+.homeTitle {
   text-align: center;
   margin: auto;
   color: #6a5acd;
@@ -106,18 +106,19 @@ nav li a:hover::before {
 }
 
 .projectTitle {
-  font-size: 20px;
+  font-size: 40px;
   color: #6a5acd;
 }
 
 .projectText {
   display: inline-block;
-  width: 50%;
+  width: 40%;
   margin-left: 0%;
 }
 
 .projectImage {
   width: 540px;
+  height: 270px;
   margin-right: 0px;
 }
 
@@ -129,9 +130,19 @@ nav li a:hover::before {
 .contactInfo {
   margin: auto;
   text-align: center;
+  text-decoration: none;
 }
 
 .project {
   display: flex;
   justify-content: space-between;
+}
+
+.sectionText {
+  font-size: 20px;
+}
+
+.contactLink {
+  color: #6a5acd;
+  line-height: 2;
 }
