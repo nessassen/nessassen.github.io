@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <script src="jquery-3.7.1.min.js"></script>
   </head>
   <body>
@@ -28,22 +28,21 @@
     </div>
     <br><br>
     <div class="section" id="home">
-      <h1 class="aboutTitle" id="aboutTitle">Hi, I'm Ness Gascoigne</h1>
+      <h1 class="homeTitle" id="homeTitle">Hi, I'm Ness Gascoigne</h1>
       <br>
       <p class="aboutText">
         Software engineer, full-stack developer, and indie game programmer
-
       </p>
     </div>
     <div class="section" id="projects">
       <h1 class="sectionTitle" id="projectsTitle">Projects</h1>
-      <br>
+      <br><br>
       <div class="project">
         <span class="projectText">
-          <h2 class="projectTitle">Rushdown</h2>
+          <a class="projectTitle" href="https://cci.drexel.edu/SeniorDesign/2021_2022/RUSHDOWN/index.html" target="_blank">Rushdown</a>
           <p class="sectionText">
-            Rushdown is an online parkour action game for up to 6 players.<br>
-            It was developed over the course of 9 months as a Drexel senior project.<br> As the  network and UI developer, I implemented online play and menu systems.
+            An online parkour action game for up to 6 players,
+            It was developed over the course of 9 months as a Drexel senior project. As the  network and UI developer, I implemented online play and menu systems.
           </p>
         </span>
         <img class="projectImage" src="assets/Rushdown.png"></img>
@@ -51,8 +50,18 @@
       <br><br>
       <div class="project">
         <span class="projectText">
-          <h2 class="projectTitle">Ripple Shader</h2>
-          <p>
+          <a class="projectTitle" href="https://globalgamejam.org/games/2024/stage-9" target="_blank">Off the Stage!</a>
+          <p class="sectionText">
+            An action typing game developed in 48 hours as part of the 2024 Global Game Jam.
+          </p>
+        </span>
+        <img class="projectImage" src="assets/OffTheStage.png"></img>
+      </div>
+      <br><br>
+      <div class="project">
+        <span class="projectText">
+          <a class="projectTitle" href="https://github.com/nessassen/FluidSim" target="_blank">Ripple Shader</a>
+          <p class="sectionText">
           GPU-based fluid simulation implemented in Unity with GLSL and C#. Fluid interacts with physics objects via sprite masks.
           </p>
         </span>
@@ -64,8 +73,8 @@
       <br><br>
       <div class="project">
         <span class="projectText">
-          <h2 class="projectTitle">Portals</h2>
-          <p>
+          <a class="projectTitle" href="https://github.com/nessassen" target="_blank">Portals</a>
+          <p class="sectionText">
           Seamless portal system in Unity using a double-camera setup.
           </p>
         </span>
@@ -78,9 +87,14 @@
     <div class="section" id="Contact">
       <h1 class="sectionTitle" id="contactTitle">Contact</h1>
       <p class="contactInfo">
-        <br>github.com/nessassen
-        <br>nessagascoigne@gmail.com
-        <br>https://www.linkedin.com/in/ness-gascoigne-245632160
+        <br>
+        <a class="contactLink" href ="github.com/nessassen" target="_blank">github.com/nessassen</a>
+        <br>
+        <a class="contactLink" href ="mailto:nessagascoigne@gmail.com" target="_blank">nessagascoigne@gmail.com</a>
+        <br>
+        <a class="contactLink" href ="https://www.linkedin.com/in/ness-gascoigne-245632160" target="_blank">
+        https://www.linkedin.com/in/ness-gascoigne-245632160
+        </a>
       </p>
     </div>
   </body>
