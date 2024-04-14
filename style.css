@@ -119,7 +119,7 @@ nav li a:hover::before {
 .projectImage {
   width: 540px;
   height: 270px;
-  object-fit: contain;
+  object-fit: cover;
   margin-right: 0px;
 }
 
