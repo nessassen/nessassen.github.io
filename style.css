@@ -133,6 +133,19 @@ nav li a:hover::before {
   margin-right: 0px;
 }
 
+.projectImageMobile {
+  width: 540px;
+  height: 270px;
+  margin: auto;
+  display: none;
+}
+
+.projectVideoMobile {
+  width: 540px;
+  margin: auto;
+  display: none;
+}
+
 .contactInfo {
   margin: auto;
   text-align: center;
@@ -146,9 +159,38 @@ nav li a:hover::before {
 
 .sectionText {
   font-size: 20px;
+  margin: 0px;
 }
 
 .contactLink {
   color: #6a5acd;
   line-height: 2;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .projectText {
+    width: 100%;
+  }
+
+  .projectTitle {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .projectImage {
+    display: none;
+  }
+
+  .projectVideo {
+    display: none;
+  }
+
+  .projectImageMobile {
+    display: block;
+  }
+
+  .projectVideoMobile {
+    display: block;
+  }
 }
