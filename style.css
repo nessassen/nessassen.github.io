@@ -142,7 +142,7 @@ nav li a:hover::before {
 }
 
 .projectVideoMobile {
-  width: 540px;
+  width: 300px;
   margin: auto;
   display: none;
 }
