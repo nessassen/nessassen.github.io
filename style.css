@@ -136,6 +136,7 @@ nav li a:hover::before {
 .projectImageMobile {
   width: 540px;
   height: 270px;
+  object-fit: cover;
   margin: auto;
   display: none;
 }
