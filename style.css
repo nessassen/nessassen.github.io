@@ -195,6 +195,15 @@ nav li a:hover::before {
     display: block;
   }
 
+  .navTitle {
+    display: none;
+  }
+
+  .nav {
+    float: left;
+  }
+
   .nav li {
     margin-left: 35px;
+  }
 }
